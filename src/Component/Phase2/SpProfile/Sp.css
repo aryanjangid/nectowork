@@ -1,0 +1,104 @@
+.main-content-tabs {
+  margin-top: max(3vh, 1rem);
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+}
+/* .Sp{
+margin:0 6rem;
+}
+
+  .SpProfile{
+    margin: 0rem;
+  }
+  .main-content {
+    margin: 4% 0;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px 0px;
+  }
+  .main-content-heading {
+    width: 100%;
+  }
+  .main-content-heading h1 {
+    text-align: center;
+    font-size: 23px;
+    margin: 0;
+  }
+  .tab {
+    margin-right: 2rem;
+    cursor: pointer;
+  }
+  
+  .tab h4 {
+    margin: 0;
+    border-bottom: 3px solid #777777;
+    font-family: Inter, sans-serif;
+    font-size: 1.1rem;
+    line-height: 24px;
+    letter-spacing: -0.08px;
+    padding: 0 9px;
+    font-weight: 400;
+  }
+  .activeTab h4{
+    border-bottom: 3px solid #007bff;
+  }
+  .tab-line {
+    margin: 0;
+    margin-top: -1.5px;
+  }
+  .main-content-visual {
+    margin: 1.6rem 2rem;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .my-profiles-edit {
+    display: flex;
+    flex-direction: column;
+  }
+  .my-profiles-edit:hover {
+    cursor: pointer;
+    color: #007bff;
+  }
+  .solution-logo {
+    width: 70px;
+    height: auto;
+    border-radius: 50%;
+  }
+  .my-profile-form {
+    margin: 1rem 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: space-between;
+  }
+  .my-profile-form-label {
+    display: flex;
+    flex-direction: column;
+    margin: 12px 0;
+  }
+  .width-30vw {
+    width: 30vw;
+  }
+  .my-profile-form-label input,
+  .my-profile-form-label textarea {
+    padding: 4px 8px;
+  }
+  .add-another-solution {
+    margin: 0 2rem;
+  }
+  .add-another-solution span {
+    margin-left: 8px;
+  }
+  .solution-details-edit{
+    cursor: pointer;
+  }
+  #options>ul>li{
+    cursor: pointer;
+  }
+  */

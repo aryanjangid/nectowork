@@ -1,0 +1,30 @@
+.requirement-hired-button {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.requirement-hired-button button {
+  margin: 3% 0;
+  border: 1px solid #3047a5;
+  background-color: #3047a5;
+  color: #fff;
+  padding: 0.4rem;
+  border-radius: 2rem;
+  transition: all 0.5s ease-in-out;
+  width: 12rem;
+}
+.requirement-hired-button button:hover {
+  background-color: transparent;
+  color: #000;
+}
+
+
+@media screen and (max-width: 767px)
+{
+  .requirement-hired-button{
+    flex-direction: column;
+  }
+}

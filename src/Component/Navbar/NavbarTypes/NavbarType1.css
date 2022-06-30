@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/* .navbar-div{
+    margin: 0 13vw;
+} */
+
+.navbar-light .navbar-nav .nav1link {
+    color: #3047A5;
+}
+.navbar{
+    padding: 1.5rem 0;
+}
+.navbar-light .navbar-nav {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 550;
+}
+
+/* .dropdown:hover .dropdown-menu {
+    display: block;
+    
+} */
+
+#dropdownMenu{
+    flex-direction: column;
+}
+
+.nav-main{
+    width: 100%;
+}
+
+.dropdown-item{
+    font-size: 0.95rem;
+}
+.dropdown-item:hover{
+    color: #3047A5;
+    background-color: #fff;
+
+}
+
+/* .navbar-nav{
+    width: 50rem;
+} */
+.nav-contents{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-nav{
+    width: 100%;
+}
+
+@media screen and (max-width:767px) {
+    .navbar-nav{
+        flex-direction: column;
+        display: flex !important;
+        margin-left: 0 !important;
+    }
+    
+    .nav-item{
+        text-align: center;
+        
+    }
+    .nav-contents{
+        flex-direction: column;
+    }
+    .nav-home{
+        display: contents;
+    }
+    .nav-signinup{
+        display: contents;
+    }
+    .ms-3{
+        margin-left: 0 !important;
+    }
+    .navbar-nav{
+        width: 100%;
+    }
+}
+

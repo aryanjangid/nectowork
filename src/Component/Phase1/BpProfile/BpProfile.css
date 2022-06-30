@@ -1,0 +1,333 @@
+.bpprofile-main-section {
+    overflow: hidden;
+}
+.bpprofile-row {
+    width: 100%;
+    /* min-height: 80vh; */
+    height: fit-content;
+    margin: 1.2rem auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bpprofile-heading,
+.completed-message {
+    text-align: center;
+    margin: 0.8rem auto;
+    height: fit-content;
+    font-weight: 600;
+}
+.completed-message {
+    font-size: 16px;
+}
+.bpprofile-divs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.bpprofile-left-div {
+    background: #c4c4c4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    min-height: 60vh;
+    margin: 0 10px 0 10px;
+    border-radius: 10px;
+    width: 30vw;
+}
+.bpprofile-left-div-subheading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2em auto 0;
+    flex-shrink: 1;
+    padding: 0 10px;
+}
+.bpprofile-left-div-subheading-p {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: -0.08px;
+    padding: 0 23px;
+    color: #000000;
+    margin: -8px 22px;
+}
+.bpprofile-left-div-heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+.progress {
+    margin: 1em auto;
+    position: relative;
+    width: 22vw;
+    height: 0.6em;
+    background-color: #fff;
+    border-radius: 1em;
+    color: white;
+}
+.progress::before {
+    content: attr(data-label);
+    font-size: 0.4em;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    min-width: 1.8rem;
+    max-width: calc(100% - 1em);
+    background-color: #007bff;
+    border-radius: 0.8em;
+    padding: 0.8em;
+}
+.progress-50::before {
+    width: calc(20vw * 0.4);
+}
+.progress-80::before {
+    width: calc(20vw * 0.8);
+}
+/* .bpprofile-left-div-heading {
+    margin: 10px auto;
+    padding: 2px 0;
+    text-align: center;
+} */
+.bpprofile-right-div {
+    width: 45vw;
+    background: #fff;
+    min-height: 80vh;
+    height: fit-content;
+    margin: 0 auto 0 10px;
+    padding: 0 8px;
+    border-radius: 10px;
+}
+.bpprofile-form-50,
+.bpprofile-form-90 {
+    margin: 1.6rem auto;
+    display: contents;
+    padding: 0 8px;
+}
+.bpprofile-label {
+    margin: 0 10px;
+    padding: 10px 0;
+    display: inline-block;
+}
+.p-bpprofile-first-name,
+.p-bpprofile-last-name,
+.p-bpprofile-email,
+.p-bpprofile-phone-number,
+.p-bpprofile-country,
+.p-bpprofile-experience,
+.p-bpprofile-linkedin-profile-link,
+.p-bpprofile-target-geography,
+.p-bpprofile-target-industry,
+.p-bpprofile-target-account,
+.p-bpprofile-target-department,
+.p-bpprofile-target-stakeholder,
+.p-bpprofile-engagement-type {
+    width: 15vw;
+    /* font-family: Inter;
+    font-style: normal; */
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+}
+.p-bpprofile-description {
+    width: 30vw;
+    /* font-family: Inter; */
+    color: #000000;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+.input-bpprofile-first-name,
+.input-bpprofile-last-name,
+.input-bpprofile-email,
+.input-bpprofile-phone-number,
+.input-bpprofile-country,
+.input-bpprofile-experience,
+.input-bpprofile-linkedin-profile-link,
+.input-bpprofile-profile-picture,
+.input-bpprofile-target-geography,
+.input-bpprofile-target-industry,
+.input-bpprofile-target-account,
+.input-bpprofile-target-department,
+.input-bpprofile-target-stakeholder,
+.input-bpprofile-engagement-type {
+    width: 20vw;
+    padding: 9px 12px;
+    background: #ffffff;
+    border: 1px solid #BFC4CA;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.input-bpprofile-description {
+    width: 31vw;
+    padding: 9px 12px;
+    background: #ffffff;
+    border: 1px solid #BFC4CA;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.bottom-bpprofile-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+.bpprofile-button-next,
+.bpprofile-button-prev {
+    min-width: 4vw;
+    width: fit-content;
+    min-height: 4vh;
+    color: #fff;
+    cursor: pointer;
+    background: #3047a5;
+    border-radius: 25px;
+    padding: 0.1rem 1.5rem;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 22px 3px 0;
+}
+
+.tags-input input{
+    width: 100%;
+    font-size: 8.7px;
+}
+/* @media (max-width: 1350px) {
+    .input-bpprofile-first-name,
+    .input-bpprofile-last-name,
+    .input-bpprofile-email,
+    .input-bpprofile-phone-number,
+    .input-bpprofile-country,
+    .input-bpprofile-organization,
+    .input-bpprofile-designation,
+    .input-bpprofile-linkedin-profile-link,
+    .input-bpprofile-profile-picture,
+    .input-bpprofile-target-geography,
+    .input-bpprofile-target-industry,
+    .input-bpprofile-target-account,
+    .input-bpprofile-target-department,
+    .input-bpprofile-target-stakeholder,
+    .input-bpprofile-engagement-type {
+        width: 30vw;
+    }
+    .bpprofile-left-div-subheading {
+        display: none;
+    }
+} */
+@media (max-width: 1000px) {
+    .bpprofile-left-div {
+        margin: 0 auto;
+        min-height: 5rem;
+        width: 80%;
+    }
+    .bpprofile-left-div-heading {
+        /* display: none; */
+        font-size: 1.5rem;
+    }
+    .progress {
+        margin: auto;
+        width: 45vw;
+    }
+    .bpprofile-right-div {
+        margin: 3px auto;
+        width: 80%;
+    }
+    /* .bpprofile-form-50,
+    .bpprofile-form-80 {
+        text-align: center;
+    } */
+    .bpprofile-label {
+        width: 45vw;
+    }
+    .bpprofile-form-50,
+    .bpprofile-form-90 {
+        display: block;
+        text-align: center;
+    }
+    .p-bpprofile-first-name,
+    .p-bpprofile-last-name,
+    .p-bpprofile-email,
+    .p-bpprofile-phone-number,
+    .p-bpprofile-country,
+    .p-bpprofile-experience,
+    .p-bpprofile-organization,
+    .p-bpprofile-designation,
+    .p-bpprofile-linkedin-profile-link,
+    .p-bpprofile-profile-picture,
+    .p-bpprofile-target-geography,
+    .p-bpprofile-target-industry,
+    .p-bpprofile-target-account,
+    .p-bpprofile-target-department,
+    .p-bpprofile-target-stakeholder,
+    .p-bpprofile-description,
+    .p-bpprofile-engagement-type {
+        width: 45vw;
+    }
+    .input-bpprofile-first-name,
+    .input-bpprofile-last-name,
+    .input-bpprofile-email,
+    .input-bpprofile-description,
+    .input-bpprofile-phone-number,
+    .input-bpprofile-country,
+    .input-bpprofile-experience,
+    .input-bpprofile-organization,
+    .input-bpprofile-designation,
+    .input-bpprofile-linkedin-profile-link,
+    .input-bpprofile-profile-picture,
+    .input-bpprofile-target-geography,
+    .input-bpprofile-target-industry,
+    .input-bpprofile-target-account,
+    .input-bpprofile-target-department,
+    .input-bpprofile-target-stakeholder,
+    .input-bpprofile-engagement-type,
+    .input-bpprofile-company_company-description,
+    .input-bpprofile-speciality,
+    .input-bpprofile-solution-description,
+    .input-bpprofile-solution-impact {
+        width: 45vw;
+    }
+    .bpprofile-flex {
+        margin-left: 0;
+        justify-content: center;
+    }
+    /* .bpprofile-button-next,
+    .bpprofile-button-prev {
+        width: 10vw;
+    } */
+    .progress-50::before {
+        width: calc(45vw * 0.5);
+    }
+    .progress-80::before {
+        width: calc(45vw * 0.8);
+    }
+    .bottom-bpprofile-buttons {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .bpprofile-divs {
+        flex-direction: column;
+    }
+    .bpprofile-button-next,
+    .bpprofile-button-prev {
+        width: 100%;
+    }
+    .progress {
+        margin: auto;
+        width: 90%;
+    }
+    .tags-input {
+        width: 100%;
+    }
+}

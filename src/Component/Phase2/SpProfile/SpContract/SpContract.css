@@ -1,0 +1,38 @@
+
+.Contract{
+margin:0 2rem;
+width: 80%;
+}
+.main-container{
+    background: white;
+    margin-top: 20px;
+    height: 100vh;
+    padding: 2rem 1rem;
+}
+.main-container>h1{
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 24px;
+}
+.main-container>.options{
+margin-top:15px;
+}
+.main-container>.options>button{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    background: transparent;
+    border: none;
+    margin: 0 10px;
+    color:grey;
+    border-bottom: 3px solid grey;
+}
+.main-container>.options>.activeBtn{
+    border-bottom: 3px solid #007BFF;
+    color:black;
+}

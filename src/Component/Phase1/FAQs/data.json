@@ -1,0 +1,49 @@
+ [ 
+    {
+        "id" : 1,
+        "ques" : "Do you charge platform fee for signup and other services?",
+        "ans": "Nectowork is completely free platform. We do not charge you for any service."
+    },
+    {
+        "id" : 2,
+        "ques" : "How can i join Nectowork?",
+        "ans": "You can join Nectowork in three easy steps: 1.Choose a user type - Solution Company or Business Partner 2.Sign Up on website 3.Connect with desired partner"
+    },
+    {
+        "id" : 3,
+        "ques" : " I am having trouble with the online process, is there an alternative method to apply?",
+        "ans": "You can reach out to us on support@nectowork.com and our team will connect with you"
+    },
+    {
+        "id" : 4,
+        "ques" : "Who can register on Nectowork?",
+        "ans" : " You can register on platform if you have a solution to sell (Solution Company) or you can help companies sell solution to prospect account (Business Partner)"
+    },
+    {
+        "id" : 5,
+        "ques" : "Who is Buisness Partner?",
+        "ans": " Business partner is B2B Sales experts who can help companies sell their solution to their target prospect accounts"
+
+    },
+    {
+        "id" : 6,
+        "ques" : "I keep getting an error message when I try logging?",
+        "ans": "You can reach out to us on support@nectowork.com and our team will connect with you"
+    },
+    {
+        "id" : 7,
+        "ques" : "How long is the process to kick start working on Nectowork, after the first first signup?",
+        "ans" :"Our team connects with you in 48 working hours"
+    },
+    {
+        "id" : 8,
+        "ques" : "How Nectowork works?",
+        "ans" : "Once you register on platform, our team will contact you to understand your requirements. As per your requirement our AI based algorithm will recommend you best partners available. You can then choose a recommended partner and take your conversation forward"
+    },
+    {
+        "id" : 9,
+        "ques" : "What happens when i sign up on platform?",
+        "ans" : "Nectowork team connect with you in next 48 working hours to understand your requirements and later send you recommendation of right partners"
+    }
+
+]

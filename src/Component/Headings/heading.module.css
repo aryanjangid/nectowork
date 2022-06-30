@@ -1,0 +1,23 @@
+.headingDiv {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0rem 1rem 0rem 1rem;
+  padding: 2rem 0;
+}
+.headingDiv p {
+  font-size: 1.2rem;
+}
+.headingDiv h1 {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.headingDiv span {
+  font-family: "Fira Sans", sans-serif;
+  color: var(--blue-text);
+}
+.headingDiv h5 {
+  margin-bottom: 1rem;
+  color:var(--grey-text)
+}

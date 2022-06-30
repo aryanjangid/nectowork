@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&family=Passion+One:wght@700&family=Quicksand:wght@300&display=swap");
+
+
+/* =============================Component1====================================  */
+
+.c1Maindiv {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin:8rem 0 2rem 0;
+}
+.c1Maindiv h1 {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 3.5rem;
+}
+.c1Maindiv span {
+  font-family: "Fira Sans", sans-serif;
+  color: var(--blue-text);
+}
+.c1Maindiv p{
+  margin: 2rem 0 0 0;
+  font-size: 1.3rem;
+}
+.c1ButtonDiv {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  margin:0 0 8rem 0;
+}
+.c1Btn1{
+    width: 15%;
+    background-color: var(--blue-text);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+.c1LearnMoreButton{
+    color:var(--white-text) ;
+    white-space: nowrap;
+}
+.c1Btn2{
+    width: 15%;
+    background-color: var(--white-text);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+.c1JoinNowButton{
+    white-space: nowrap;
+    color: var(--blue-text);
+}
+
+/* =============================Component2====================================  */
+
+.c2maindiv{
+  background-color: var(--white-text);
+}
+.c2contentdiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding:0 3rem 3rem 3rem;
+}
+.c2card{
+  margin:0 20px;
+  padding: 20px;
+}
+.c2card h1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  margin: 10px;
+}
+
+/* =============================Component3====================================  */
+
+.c3contentdiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 3rem;
+}
+.c3card{
+  background-color: white;
+  margin: 2rem;
+  width: 30%;
+  padding: 40px;
+  border-radius: 70px;
+  border: 1px solid var(--light-grey-text);
+}
+.c3card h1{
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.5rem;
+  margin: 10px;
+  color: var(--blue-text);
+  margin-top: 30px;
+}
+.c3card h2{
+  color: var(--grey-text);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  margin: 10px;
+}
+.c3card p{
+  margin: 20px 0 30px 10px;
+}
+.c3LearnMoreButton{
+  margin: 10px;
+}
+.arrow{
+  margin-left: 10px;
+}
+
+
+/* =============================Component4====================================  */
+
+.c4contentdiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.c4card{
+  margin: 2rem;
+}
+.c4cardImgDiv{
+  background-color: var(--light-yellow-text);
+  padding: 30px 0 30px 0;
+  border-radius: 50px;
+}
+.c4card h1{
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.5rem;
+  margin: 10px 0 10px 50px;
+  color: var(--blue-text);
+  margin-top: 30px;
+  text-align: left;
+}
+.c4card p{
+  text-align: left;
+  margin: 10px 30px 10px 50px;
+}
+
+/* =============================Component5====================================  */
+
+.c5maindiv{
+  background-color: var(--white-text);
+}

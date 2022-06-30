@@ -1,0 +1,46 @@
+/*Upper Profile Pic Div*/
+.profile-pic-div {
+  margin: 4% 15vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.left-side-div {
+  float: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.left-side-image {
+ height: 5rem;
+}
+
+.left-div-user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0.5rem 1rem;
+}
+.left-side-designation{
+  color: #111;
+  font-size: 0.8rem;
+}
+.right-side-div {
+  float: right;
+  padding: 0.5rem 0;
+}
+
+.right-side-div button {
+  background: #3047a5;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  padding: 0.5rem 1.2rem;
+  color: #ffffff;
+}

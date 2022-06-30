@@ -1,0 +1,119 @@
+/* .shortlisted-main-content {
+  margin: 4% 15vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 2rem;
+}
+
+.all-shortlisted-text {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.all-shortlisted-main-content-tabs {
+  margin-top: max(3vh, 1rem);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.all-shortlisted-tab {
+  width: 8rem;
+  text-align: center;
+}
+
+.all-shortlisted-tab p {
+  margin: 0;
+  border-bottom: 4px solid #6c757d;
+  font-family: Inter, sans-serif;
+  font-size: 1.2rem;
+  line-height: 24px;
+  letter-spacing: -0.08px;
+  color: #6c757d;
+}
+.all-shortlisted-tab p:hover {
+  color: #000;
+  border-bottom: 4px solid #3047a5;
+}
+.shortlisted-tab-line {
+  margin: 0;
+}
+
+.shortlisted-business-partner-text {
+  margin: 1.6rem 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.all-shortlisted-business-partner-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  height: 7vh;
+}
+.all-shortlisted-business-partner-tabs p {
+  color: #333;
+}
+
+.my-requirement-shortlisted-section {
+  margin: 12px 0 16px;
+  display: flex;
+  flex-direction: column;
+}
+.all-shortlisted-business-partner-wrapper{
+    margin: 1rem 2rem;
+}
+.my-requirement-shortlisted-section-first {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.my-requirement-shortlisted-section-first h3 {
+  color: #3047a5;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.my-requirement-shortlisted-section-second {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.all-shortlisted-business-partner-tabs h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0.5rem 0;
+}
+@media (min-width: 768px) and (max-width: 1024px)
+{
+  .shortlisted-main-content{
+    margin: 4% 6vw;
+  }
+  .all-shortlisted-tab{
+    width: 7rem;
+  }
+} 
+@media screen and (max-width: 767px) {
+  .all-shortlisted-business-partner-tabs h3 {
+    font-size: 1rem;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .all-shortlisted-text,
+  .shortlisted-business-partner-text {
+    font-size: 1.5rem;
+  }
+  .all-shortlisted-tab p {
+    font-size: 1rem;
+  }
+  .shortlisted-main-content {
+    margin: 4% 6vw;
+    padding: 1rem;
+  }
+} */

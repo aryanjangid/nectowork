@@ -1,0 +1,109 @@
+/* .contact-main-content {
+    margin: 4% 15vw;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.all-contact-text {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.all-contact-main-content-tabs {
+    margin-top: max(3vh, 1rem);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.all-contact-tab {
+    margin: 12px 12px 1px;
+}
+
+.all-contact-tab p {
+    margin: 0;
+    text-decoration: underline solid #007bff;
+    font-family: Inter, sans-serif;
+    font-size: 1.4rem;
+    line-height: 24px;
+    letter-spacing: -0.08px;
+    color: #333;
+}
+.all-contact-tab p:hover{
+    text-decoration: underline 4px solid #3047a5;
+}
+.contact-tab-line {
+    margin: 0;
+}
+
+.contact-business-partner-text {
+    margin: 1.6rem 0;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.all-contact-business-partner-tabs{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    height: 7vh;
+}
+.all-contact-business-partner-tabs p{
+    color: #333;
+}
+
+.my-requirement-contact-section {
+    margin: 12px 0 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.my-requirement-contact-section-first {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.my-requirement-contact-section-first h3 {
+    color: #3047a5;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.all-contact-business-partner-tabs h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.5rem 0;
+}
+
+.my-requirement-contact-section-second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width:767px)
+{
+    .contact-main-content{
+        padding: 1rem;
+        margin: 4% 6vw;
+    }
+    .all-contact-business-partner-tabs h3{
+        font-size: 1rem;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .all-contact-text,
+    .contact-business-partner-text{
+        font-size: 1.5rem;
+    }
+    .all-contact-tab p{
+        font-size: 1rem;
+    }
+} */

@@ -1,0 +1,8 @@
+{
+  "short_name": "Nectowork",
+  "name": "Nectowork",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#3047a5",
+  "background_color": "#e9ecef"
+}

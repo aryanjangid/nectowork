@@ -1,0 +1,129 @@
+.bp-all-requirement-main-section {
+  margin: 4% 15vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 2rem;
+}
+.requirement-apply-button {
+  text-align: center;
+  margin: 8px auto;
+}
+.applied-button{
+  border: 1px solid #28A745;
+  background-color: #28A745;
+  color: #fff;
+  padding: 0.4rem;
+  border-radius: 2rem;
+  transition: all 0.5s ease-in-out;
+  width: 12rem;
+}
+#requirement-apply-button {
+  border: 1px solid #3047a5;
+  background-color: #3047a5;
+  color: #fff;
+  padding: 0.4rem;
+  border-radius: 2rem;
+  transition: all 0.5s ease-in-out;
+  width: 12rem;
+}
+#requirement-apply-button2 {
+  border: 1px solid #3047a5;
+  background-color: #3047a5;
+  color: #fff;
+  padding: 0.4rem;
+  border-radius: 2rem;
+  transition: all 0.5s ease-in-out;
+  width: 12rem;
+}
+.my-requirement-text
+{
+  line-height: 24px;
+  letter-spacing: -0.08px;
+  color: #000000;
+  text-align: center;
+  margin: 2rem 0;
+  font-weight: 400;
+}
+.all-requirement-text{
+  line-height: 24px;
+  letter-spacing: -0.08px;
+  text-align: center;
+  margin: 0;
+  font-weight: 400;
+  font-size: 1.7rem ;
+}
+
+.all-requirement-tab{
+  width: 10rem;
+  text-align: center;
+}
+.all-requirement-main-content-tabs{
+  margin-top: max(3vh, 1rem);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.my-requirement-tab p{
+  width: 11rem;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  border-bottom: 4px solid #3047a5;
+  line-height: 24px;
+  letter-spacing: -0.08px;
+  color: #000000;
+  margin: 0;
+  text-align: center;
+}
+
+.all-requirement-tab p {
+  margin: 0;
+  border-bottom: 4px solid #6c757d;
+  font-family: Inter, sans-serif;
+  font-size: 1.4rem;
+  line-height: 24px;
+  letter-spacing: -0.08px;
+  color: #6c757d;
+}
+
+.all-requirement-tab p:hover,
+.all-requirement-tab p:focus
+{
+  color: #000;
+  border-bottom: 4px solid #3047a5;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .bp-all-requirement-main-section {
+    margin: 4% 6vw;
+  }
+  .all-requirement-tab {
+    width: 7rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .all-requirement-text, .my-requirement-text{
+    font-size: 1.5rem;
+  }
+ .my-requirement-tab p,
+  .all-requirement-tab p {
+    font-size: 1rem;
+  }
+  .all-requirement-tab {
+    width: 8rem;
+  }
+  .bp-all-requirement-main-section {
+    margin: 4% 6vw;
+    padding: 1rem;
+  }
+  .my-requirement-tab {
+    width: 8rem;
+    font-size: 1rem;
+  }
+  .my-requirement-main-content-tabs {
+    width: 100%;
+  }
+}

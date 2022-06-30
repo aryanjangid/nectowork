@@ -1,0 +1,162 @@
+/* .SpRequirementPostedRequirement {
+  margin: 4% 15vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 2rem;
+}
+
+.all-requirement-text {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.all-requirement-main-content-tabs,
+.my-requirement-main-content-tabs {
+  margin-top: max(3vh, 1rem);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.my-requirement-tab{
+  width: 10rem;
+  text-align: center;
+}
+
+.all-requirement-tab {
+  width: 8rem;
+  text-align: center;
+}
+
+.all-requirement-tab p{
+  margin: 0;
+  font-family: Inter, sans-serif;
+  border-bottom: 4px solid #6C757D;
+  font-size: 1.2rem;
+  line-height: 24px;
+  letter-spacing: -0.08px;
+  color: #6C757D;
+}
+.my-requirement-tab {
+  margin: 0;
+  /* text-decoration: underline 4px solid #999999; 
+  font-family: Inter, sans-serif;
+  font-size: 1.4rem;
+  line-height: 24px;
+  letter-spacing: -0.08px;
+  color: #6C757D;
+}
+
+.all-requirement-tab p:hover,
+.my-requirement-tab p:hover {
+  color: #000;
+  border-bottom: 4px solid #3047a5;
+}
+
+.requirement-tab-line {
+  margin: 0;
+}
+
+/* my requirement parts 
+.my-requirement-text {
+  margin: 1.6rem 0;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.my-requirement-main-content-tabs {
+  width: 45%;
+}
+
+.my-requirement-active-section {
+  margin: 12px 0 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.my-requirement-active-section-first {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.my-requirement-active-section-first h3 {
+  color: #3047a5;
+  font-weight: 600;
+}
+
+.my-requirement-active-section-second {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.my-requirement-active-section-third {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-requirement-active-section-third-bottom-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.my-requirement-active-section-third-bottom-bar p {
+  color: #000000;
+}
+.my-requirement-active-section-third-bottom-bar-span {
+  color: #3047a5;
+  font-weight: 600;
+} */
+
+/* @media (min-width: 768px) and (max-width: 1024px)
+{
+  .requirement-main-content{
+    margin: 4% 6vw;
+  }
+  .all-requirement-tab{
+    width: 7rem;
+  }
+  .my-requirement-main-content-tabs{
+    width: 60%;
+  }
+} 
+
+@media screen and (max-width: 767px) {
+  .my-requirement-active-section-third-bottom-bar {
+    flex-wrap: wrap;
+  }
+  .all-requirement-text,
+  .my-requirement-text {
+    font-size: 1.5rem;
+  } */
+
+  /* .my-requirement-active-section-third-bottom-bar p {
+    width: 50%;
+    text-align: center;
+    padding: 0 1rem;
+  }
+  .requirement-main-content {
+    margin: 4% 6vw;
+    padding: 1rem;
+  }
+  .all-requirement-tab p {
+    font-size: 1rem;
+  }
+  .my-requirement-tab p{
+    font-size: 1.2rem;
+  }
+  .my-requirement-main-content-tabs {
+    width: 100%;
+  }
+  .my-requirement-tab{
+    width: 8rem;
+  }
+} */

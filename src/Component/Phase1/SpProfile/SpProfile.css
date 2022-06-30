@@ -1,0 +1,466 @@
+.spprofile-main-section {
+    overflow: hidden;
+}
+.spprofile-row {
+    /* width: 62vw; */
+    width: 100%;
+    /* min-height: 80vh; */
+    height: fit-content;
+    margin: 1.2rem auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.spprofile-heading{
+    font-weight: 600;
+}
+.spprofile-heading,
+.completed-message {
+    text-align: center;
+    margin: 0.8rem auto;
+    height: fit-content;
+}
+.completed-message{
+   font-weight: 600;
+    color: blue;
+}
+.spprofile-divs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.spprofile-left-div {
+    background: #c4c4c4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    min-height: 60vh;
+    margin: 0 10px 0 10px;
+    border-radius: 10px;
+    width: 30vw;
+}
+.left-div-subheading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2em auto 0;
+    flex-shrink: 1;
+    padding: 0 10px;
+}
+.left-div-subheading-p {
+    font-family:sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: -0.08px;
+    padding: 0 23px;
+    margin: -8px 0;
+    color: #000000;
+}
+.spprofile-progress {
+    margin: 1em auto;
+    position: relative;
+    width: 22vw;
+    height: 0.6em;
+    background-color: #fff;
+    border-radius: 1em;
+    color: white;
+}
+.spprofile-progress::before {
+    content: attr(data-label);
+    font-size: 0.4em;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    min-width: 1.8rem;
+    max-width: calc(100% - 1em);
+    background-color: #007bff;
+    border-radius: 0.8em;
+    padding: 0.8em;
+}
+.spprofile-progress-20::before {
+    width: calc(20vw * 0.2);
+}
+.spprofile-progress-40::before {
+    width: calc(20vw * 0.4);
+}
+.spprofile-progress-70::before {
+    width: calc(20vw * 0.7);
+}
+.spprofile-progress-90::before {
+    width: calc(20vw * 0.98);
+}
+.spprofile-left-div-heading {
+    /* margin: 10px auto; */
+    /* padding: 2px 0; */
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+.spprofile-right-div {
+    width: 45vw;
+    background: #fff;
+    min-height: 80vh;
+    height: fit-content;
+    margin: 0 auto 0 10px;
+    border-radius: 10px;
+}
+.spprofile-form-20,
+.spprofile-form-40,
+.spprofile-form-70,
+.spprofile-form-90 {
+    margin: 1.6rem auto;
+    padding: 0 8px;
+}
+.spprofile-label {
+    margin: 0 6px;
+    padding: 10px 0;
+    display: inline-block;
+}
+.p-spprofile-first-name,
+.p-spprofile-last-name,
+.p-spprofile-email,
+.p-spprofile-phone-number,
+.p-spprofile-country,
+.p-spprofile-organization,
+.p-spprofile-designation,
+.p-spprofile-linkedin-profile-link,
+.p-spprofile-profile-picture,
+.p-spprofile-industry,
+.p-spprofile-website,
+.p-spprofile-Company_Linkedin_profile_link,
+.p-spprofile-Number_of_employees,
+.p-spprofile-company_company-description,
+.p-spprofile-solution-name,
+.p-spprofile-solution-type,
+.p-spprofile-solution-description,
+.p-spprofile-solution-impact,
+.p-spprofile-solution-deck,
+.p-spprofile-video-link,
+.p-spprofile-testimonial,
+.p-spprofile-target-geography,
+.p-spprofile-target-industry,
+.p-spprofile-target-account,
+.p-spprofile-target-department,
+.p-spprofile-target-stakeholder,
+.p-spprofile-engagement-type {
+    width: 15vw;
+    /* font-family: Inter;
+    font-style: normal; */
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+}
+.input-spprofile-first-name,
+.input-spprofile-last-name,
+.input-spprofile-email,
+.input-spprofile-phone-number,
+.input-spprofile-country,
+.input-spprofile-organization,
+.input-spprofile-designation,
+.input-spprofile-linkedin-profile-link,
+.input-spprofile-profile-picture,
+.input-spprofile-industry,
+.input-spprofile-website,
+.input-spprofile-Company_Linkedin_profile_link,
+.input-spprofile-Number_of_employees,
+.input-spprofile-specality,
+.input-spprofile-solution-name,
+.input-spprofile-solution-type,
+.input-spprofile-solution-deck,
+.input-spprofile-video-link,
+.input-spprofile-testimonial,
+.input-spprofile-target-geography,
+.input-spprofile-target-industry,
+.input-spprofile-target-account,
+.input-spprofile-target-department,
+.input-spprofile-target-stakeholder,
+.input-spprofile-engagement-type {
+    width: 20vw;
+    padding: 9px 12px;
+    background: #ffffff;
+    border: 1px solid #BFC4CA;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.input-spprofile-company_company-description,
+.input-spprofile-speciality,
+.input-spprofile-solution-description,
+.input-spprofile-solution-impact {
+    width: 31vw;
+    padding: 9px 12px;
+    border: 1px solid #BFC4CA;
+}
+.spprofile-flex {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: flex-end;
+}
+.bottom-spprofile-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+.spprofile-button-next,
+.spprofile-button-prev {
+    min-width: 4vw;
+    width: fit-content;
+    min-height: 4vh;
+    color: #fff;
+    cursor: pointer;
+    background: #3047a5;
+    border-radius: 25px;
+    padding: 0.1rem 1.5rem;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 22px 3px 0;
+}
+/* @media (max-width: 1350px) {
+    .input-spprofile-first-name,
+    .input-spprofile-last-name,
+    .input-spprofile-email,
+    .input-spprofile-phone-number,
+    .input-spprofile-country,
+    .input-spprofile-organization,
+    .input-spprofile-designation,
+    .input-spprofile-linkedin-profile-link,
+    .input-spprofile-profile-picture,
+    .input-spprofile-industry,
+    .input-spprofile-website,
+    .input-spprofile-Company_Linkedin_profile_link,
+    .input-spprofile-Number_of_employees,
+    .input-spprofile-specality,
+    .input-spprofile-solution-name,
+    .input-spprofile-solution-type,
+    .input-spprofile-solution-deck,
+    .input-spprofile-video-link,
+    .input-spprofile-testimonial,
+    .input-spprofile-target-geography,
+    .input-spprofile-target-industry,
+    .input-spprofile-target-account,
+    .input-spprofile-target-department,
+    .input-spprofile-target-stakeholder,
+    .input-spprofile-engagement-type {
+        width: 30vw;
+    } */
+    /* .left-div-subheading {
+        display: none;
+    } */
+/* } */
+@media  (max-width: 1000px) {
+    .spprofile-left-div {
+        margin: 0 auto;
+        min-height: 5rem;
+        width: 80%;
+    }
+    .spprofile-left-div-heading {
+       font-size: 1rem;
+    }
+    .spprofile-progress {
+        margin: auto;
+        width: 45vw;
+    }
+    .spprofile-right-div {
+        margin: 3px auto;
+        width: 80%;
+    }
+    .bottom-spprofile-buttons {
+        justify-content: center;
+    }
+    .spprofile-form-20,
+    .spprofile-form-40,
+    .spprofile-form-70,
+    .spprofile-form-90 {
+        text-align: center;
+    }
+    .spprofile-label {
+        width: 45vw;
+    }
+    .p-spprofile-first-name,
+    .p-spprofile-last-name,
+    .p-spprofile-email,
+    .p-spprofile-phone-number,
+    .p-spprofile-country,
+    .p-spprofile-organization,
+    .p-spprofile-designation,
+    .p-spprofile-linkedin-profile-link,
+    .p-spprofile-profile-picture,
+    .p-spprofile-industry,
+    .p-spprofile-website,
+    .p-spprofile-Company_Linkedin_profile_link,
+    .p-spprofile-Number_of_employees,
+    .p-spprofile-company_company-description,
+    .p-spprofile-solution-name,
+    .p-spprofile-solution-type,
+    .p-spprofile-solution-description,
+    .p-spprofile-solution-impact,
+    .p-spprofile-solution-deck,
+    .p-spprofile-video-link,
+    .p-spprofile-testimonial,
+    .p-spprofile-target-geography,
+    .p-spprofile-target-industry,
+    .p-spprofile-target-account,
+    .p-spprofile-target-department,
+    .p-spprofile-target-stakeholder,
+    .p-spprofile-engagement-type {
+        width: 45vw;
+    }
+    .input-spprofile-first-name,
+    .input-spprofile-last-name,
+    .input-spprofile-email,
+    .input-spprofile-phone-number,
+    .input-spprofile-country,
+    .input-spprofile-organization,
+    .input-spprofile-designation,
+    .input-spprofile-linkedin-profile-link,
+    .input-spprofile-profile-picture,
+    .input-spprofile-industry,
+    .input-spprofile-website,
+    .input-spprofile-Company_Linkedin_profile_link,
+    .input-spprofile-Number_of_employees,
+    .input-spprofile-specality,
+    .input-spprofile-solution-name,
+    .input-spprofile-solution-type,
+    .input-spprofile-solution-deck,
+    .input-spprofile-video-link,
+    .input-spprofile-testimonial,
+    .input-spprofile-target-geography,
+    .input-spprofile-target-industry,
+    .input-spprofile-target-account,
+    .input-spprofile-target-department,
+    .input-spprofile-target-stakeholder,
+    .input-spprofile-engagement-type,
+    .input-spprofile-company_company-description,
+    .input-spprofile-speciality,
+    .input-spprofile-solution-description,
+    .input-spprofile-solution-impact {
+        width: 45vw;
+    }
+    .spprofile-flex {
+        justify-content: center;
+    }
+    /* .spprofile-button-next,
+    .spprofile-button-prev {
+        width: 10vw;
+    } */
+    .spprofile-progress-20::before {
+        width: calc(45vw * 0.2);
+    }
+    .spprofile-progress-40::before {
+        width: calc(45vw * 0.4);
+    }
+    .spprofile-progress-70::before {
+        width: calc(45vw * 0.7);
+    }
+    .spprofile-progress-90::before {
+        width: calc(45vw * 0.9);
+    }
+}
+textarea {
+    resize: none;
+}
+
+.tags-input {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    min-height: 48px;
+    width: 480px;
+    padding: 0 8px;
+    border: 1px solid #d6d8da;
+    border-radius: 6px;
+}
+.tags-input:focus-within {
+    border: 1px solid #0052cc;
+}
+.tags-input input {
+    flex: 1;
+    border: none;
+    height: 46px;
+    font-size: 14px;
+    padding: 4px 0 0 0;
+}
+.tags-input input:focus {
+    outline: transparent;
+}
+#tags {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 8px 0 0 0;
+}
+.tag {
+    width: auto;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 0 8px;
+    font-size: 14px;
+    list-style: none;
+    border-radius: 6px;
+    margin: 0 8px 8px 0;
+    background: #007bff;
+}
+.tag .tag-title {
+    margin-top: 3px;
+}
+.tag .tag-close-icon {
+    display: block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 8px;
+    color: #007bff;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+.left-div-subheading-p {
+    padding: 0 16px;
+}
+/* @media screen and (max-width: 567px) {
+    .tags-input {
+        width: calc(100vw - 32px);
+    }
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+} */
+
+@media screen and (max-width: 767px){
+    .spprofile-divs {
+        flex-direction: column;
+    }
+    .spprofile-button-next,
+    .spprofile-button-prev {
+        width: 100%;
+    }
+    .left-div-subheading-p {
+        padding: 0 16px;
+    }
+    .spprofile-progress {
+        margin: auto;
+        width: 90%;
+    }
+    .tags-input {
+        width: 100%;
+    }
+}

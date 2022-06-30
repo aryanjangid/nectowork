@@ -1,0 +1,206 @@
+.saved-main-content,
+.shortlisted-main-content,
+.hired-main-content, .contact-main-content {
+  margin: 4% 15vw;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.all-saved-text,.all-contact-text,
+.all-requirement-text,
+.all-shortlisted-text,
+.all-hired-text {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.all-saved-main-content-tabs,
+.all-requirement-main-content-tabs,
+.my-requirement-main-content-tabs,
+.all-shortlisted-main-content-tabs,
+.all-contact-main-content-tabs,
+.all-hired-main-content-tabs {
+  margin-top: max(3vh, 1rem);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.my-requirement-tab {
+  width: 11rem;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 24px;
+  letter-spacing: -0.08px;
+  color: #000000;
+  margin: 0;
+  text-align: center;
+}
+.all-saved-tab,
+.all-hired-tab,
+.all-contact-tab,
+.all-requirement-tab,
+.all-shortlisted-tab {
+  width: 8.5rem;
+  text-align: center;
+}
+
+.all-saved-tab p,.all-contact-tab p ,
+.all-hired-tab p .all-requirement-tab p,
+.all-shortlisted-tab p {
+  margin: 0;
+  border-bottom: 4px solid #6c757d;
+  font-family: Inter, sans-serif;
+  font-size: 1.2rem;
+  line-height: 24px;
+  letter-spacing: -0.08px;
+  color: #6c757d;
+}
+
+.all-saved-tab p:hover,
+.all-contact-tab p:hover,
+.all-requirement-tab p:hover,
+.my-requirement-tab p:hover,
+.all-shortlisted-tab p:hover,
+.all-hired-tab p:hover {
+  color: #000;
+  border-bottom: 4px solid #3047a5;
+}
+
+.saved-tab-line,
+.hired-tab-line,
+.requirement-tab-line,
+.shortlisted-tab-line, .contact-tab-line  {
+  margin: 0;
+}
+
+.saved-business-partner-text,
+.my-requirement-text,
+.contact-business-partner-text,
+.shortlisted-business-partner-text,
+.hired-business-partner-text {
+  margin: 1.6rem 0;
+  text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-size: 1.7rem !important;
+  font-weight: normal;
+  color: #000;
+}
+.my-requirement-main-content-tabs {
+  width: 45%;
+}
+.all-saved-business-partner-tabs,
+.all-shortlisted-business-partner-tabs,
+.all-hired-business-partner-tabs, .all-contact-business-partner-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  height: 7vh;
+}
+
+.my-requirement-saved-section,
+.my-requirement-active-section,
+.my-requirement-shortlisted-section,
+.my-requirement-hired-section, .my-requirement-contact-section  {
+  margin: 12px 0 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.my-requirement-saved-section-first,
+.my-requirement-active-section-first,
+.my-requirement-shortlisted-section-first,
+.my-requirement-hired-section-first, .my-requirement-contact-section-first {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.my-requirement-saved-section-first h3,
+.my-requirement-active-section-first h3,
+.my-requirement-shortlisted-section-first h3,
+.my-requirement-hired-section-first h3, .my-requirement-contact-section-first h3 {
+  color: #3047a5;
+  /* font-size: 1.5rem; */
+  font-weight: 600;
+}
+
+.my-requirement-saved-section-second,.my-requirement-shortlisted-section-second,
+.my-requirement-active-section-second,
+.my-requirement-hired-section-second, .my-requirement-contact-section-second  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.my-requirement-active-section-third-bottom-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.all-saved-business-partner-tabs h3,
+.all-hired-business-partner-tabs h3,
+.all-shortlisted-business-partner-tabs h3, .all-contact-business-partner-tabs h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0.5rem 0;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .saved-main-content,
+  .shortlisted-main-content {
+    margin: 4% 6vw;
+  }
+  .all-saved-tab,
+  .all-requirement-tab,
+  .all-shortlisted-tab {
+    width: 7rem;
+  }
+  .my-requirement-main-content-tabs {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .my-requirement-active-section-third-bottom-bar {
+    flex-wrap: wrap;
+  }
+  .all-saved-business-partner-tabs h3, .all-hired-business-partner-tabs h3,
+  .all-shortlisted-business-partner-tabs h3, .all-contact-business-partner-tabs h3 {
+    font-size: 1rem;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .all-saved-text,
+  .saved-business-partner-text,
+  .all-shortlisted-text,
+  .all-hired-text,
+    .hired-business-partner-text,
+  .shortlisted-business-partner-text, .all-contact-text,
+  .contact-business-partner-text {
+    font-size: 1.5rem;
+  }
+  .all-saved-tab p,  .all-contact-tab p,  .all-hired-tab p,
+  .my-requirement-tab p,
+  .all-shortlisted-tab p {
+    font-size: 1rem;
+  }
+  .saved-main-content, .contact-main-content,  .hired-main-content {
+    margin: 4% 6vw;
+    padding: 1rem;
+  }
+  .my-requirement-tab {
+    width: 8rem;
+    font-size: 1rem;
+  }
+  .my-requirement-main-content-tabs {
+    width: 100%;
+  }
+}

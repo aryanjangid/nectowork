@@ -1,0 +1,156 @@
+.pointer {  display: inline-block;
+    justify-content: center;
+    background: #fff;
+    margin: -1.6rem;
+    width: 18rem;
+    position: relative;
+    height: 3.7rem;
+    clip-path: polygon(75% 0%, 80% 50%, 75% 100%, 0% 100%, 5% 50%, 0% 0%);
+  }
+  
+  .pointer:hover {
+    background: #777;
+  }
+  
+  .spnav> div:nth-child(1){
+    clip-path: polygon(75% 0%, 80% 50%, 75% 100%, 0% 100%, 0% 0%, 10% 0%);
+  }
+  .spnav> div:nth-child(4){
+    clip-path: polygon(75% 0%, 80% 0%, 80% 100%, 0% 100%, 5% 50%, 0% 0%);
+  }
+  
+  .spnav p {
+    color: #111827;
+    font-size: 16px;
+  }
+  .pointer:hover p {
+    color: #fff;
+  }
+  
+  .text-content1 {
+    left: 5rem;
+    top: 1rem;
+    position: absolute;
+  }
+  .text-content2 {
+    left: 1.6rem;
+    top: 1rem;
+    position: absolute;
+  }
+  .text-content3 {
+    left: 1.6rem;
+    top: 1rem;
+    position: absolute;
+  }
+  .text-content4 {
+    left: 5rem;
+    top: 1rem;
+    position: absolute;
+  }
+  .spnav {
+    display: flex;
+    justify-content: center;
+    margin-left: 3.5rem;
+  }
+  
+  @media (min-width: 768px) and (max-width: 800px) {
+  
+    .pointer {
+      width: 50%;
+      height: 4rem;
+      margin: 0.5rem 0;
+    }
+    .spnav p {
+      font-size: 20px;
+    }
+    .spnav {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .spnav {
+      margin-left: 4rem;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .pointer {
+      /* width: 50%; */
+      height: 2.5rem;
+      /* margin: 0.5rem 0; */
+      margin: 0.5rem;
+      width: 45%;
+    }
+    .spnav p {
+      font-size: 10px;
+    }
+    .spnav {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .text-content1 {
+      left: 3rem;
+      top: 0.4rem;
+      position: absolute;
+    }
+    .spnav {
+      margin: 1rem 0.5rem;
+      margin-left: 1rem;
+      width: 100%;
+    }
+    .text-content2 {
+      left: 0.8rem;
+      top: 0.4rem;
+      position: absolute;
+    }
+    .text-content3 {
+      left: 0.8rem;
+      top: 0.4rem;
+      position: absolute;
+    }
+    .text-content4 {
+      left: 3rem;
+      top: 0.4rem;
+      position: absolute;
+    }
+  }
+  
+  @media (max-width: 1280px) and (min-width: 1025px) {
+    .pointer {
+      margin: -1.6rem;
+      width: 17.2rem;
+    }
+  }
+  @media (max-width: 1025px) and (min-width: 800px) {
+    .pointer {
+      margin: -1.4rem;
+      width: 17rem;
+    }
+  
+    .spnav {
+      margin-left: 3rem;
+    }
+    .text-content1 {
+      left: 3rem;
+      top: 1rem;
+      position: absolute;
+    }
+    .text-content2 {
+      left: 1rem;
+      top: 1rem;
+      position: absolute;
+    }
+    .text-content3 {
+      left: 1rem;
+      top: 1rem;
+      position: absolute;
+    }
+    .text-content4 {
+      left: 3rem;
+      top: 1rem;
+      position: absolute;
+    }
+    .spnav p {
+      font-size: 14px;
+    }
+  }
+  
