@@ -148,3 +148,74 @@
 .c5maindiv{
   background-color: var(--white-text);
 }
+.c5accdiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 50px;
+  padding-top: 20px;
+}
+.c5btn1, .c5btn2, .c5btn3{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c5leftdiv button:hover{
+  background: #dce7fc;
+}
+.c5leftdiv p{
+    margin-left: 3rem;
+    margin-top: 0.4rem;
+}
+.c5leftdiv button{
+  margin: 10px;
+  width: 350px;
+  left: 109px;
+  top: 360px;
+  background: #E8F0FF;
+  border-radius: 22px;
+  text-align: left;
+  padding: 1.3rem;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  color: #3047A5;
+  border: none;
+
+}
+.c5btntextactive{
+    height: fit-content;
+    display: block;
+}
+.c5btntext{
+    height: 0px;
+    display: none;
+}
+.c5leftdiv span{
+    border-radius: 50%;
+    background-color: #3047A5;
+    color: white;
+    margin-right: 15px;
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 6px;
+    font-size: 20px;
+}
+.c5outerdiv{
+    width: 25rem;
+    height: 25rem;
+    background-color: #3047A5;
+    border-radius: 30px;
+}
+.c5outerdiv img{
+    width: 19rem;
+    height: 25rem;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+}
