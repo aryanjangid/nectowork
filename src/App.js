@@ -37,7 +37,7 @@ import SpForm20 from "./Component/Phase1/SpProfile/RightDiv/Forms/SpForm20";
 import SpForm40 from "./Component/Phase1/SpProfile/RightDiv/Forms/SpForm40";
 import SpForm70 from "./Component/Phase1/SpProfile/RightDiv/Forms/SpForm70";
 import SpForm90 from "./Component/Phase1/SpProfile/RightDiv/Forms/SpForm90";
-
+import Bpprofile from "./Component/Phase1/Profiles/BPprofile"
 function App() {
     return (<div className="App">
         <Router>
@@ -59,25 +59,25 @@ function App() {
                 <Route exact path={"/spForm90"} element={<SpForm90 />} />
                 <Route exact path={"/forgot"} element={<ForgotPasswordPage />} />
                 {/* phase-2 */}
-                <Route exact path="/Sp" element={<Sp />} />
-                <Route exact path={"/SpProfileCompany"} element={<SpProfileCompany />} />
-                <Route exact path={"/SpProfileSolution"} element={<SpProfileSolution />} />
-                <Route exact path={"/SpProfileMyProfile"} element={<SpProfileMyProfile />} />
-                <Route exact path={"/SpRequirementPostedRequirement"} element={<SpRequirementPostedRequirement />} />
-                <Route exact path={"/SpRequirementPostedShortlisted"} element={<SpRequirementPostedShortlisted />} />
-                <Route exact path={"/SpRequirementPostedSaved"} element={<SpRequirementPostedSaved />} />
-                <Route exact path={"/SpRequirementPostedHired"} element={<SpRequirementPostedHired />} />
-                <Route exact path={"/SpRequirementPostedContact"} element={<SpRequirementPostedContact />} />
-                <Route exact path={"/BpMainProfile"} element={<BpMainProfile />} />
-                <Route exact path={"/BpAllRequirement"} element={<BpAllRequirement />} />
-                <Route exact path={"/BpAllRequirementApplied"} element={<BpAllRequirementApplied />} />
-                <Route exact path={"/BpAllRequirementSaved"} element={<BpAllRequirementSaved />} />
-                <Route exact path={"/BpAllRequirementHired"} element={<BpAllRequirementHired />} />
-                <Route exact path={"/BpAllRequirementContracted"} element={<BpAllRequirementContracted />} />
-                <Route exact path={"/SpViewOfBP"} element={<SpViewOfBP />} />
-                <Route exact path={"/BpViewOfSp"} element={<BpViewOfSp />} />
-
-                <Route exact path={"/jobpost"} element={<PR />} />
+                <Route exact path="/bptospprofile" element={<Bpprofile/>}/>
+                <Route exact path="/Sp" element={<Sp/>}/>
+                <Route exact path={"/SpProfileCompany"} element={<SpProfileCompany/>}/>
+                <Route exact path={"/SpProfileSolution"} element={<SpProfileSolution/>}/>
+                <Route exact path={"/SpProfileMyProfile"} element={<SpProfileMyProfile/>}/>
+                <Route exact path={"/SpRequirementPostedRequirement"} element={<SpRequirementPostedRequirement/>}/>
+                <Route exact path={"/SpRequirementPostedShortlisted"} element={<SpRequirementPostedShortlisted/>}/>
+                <Route exact path={"/SpRequirementPostedSaved"} element={<SpRequirementPostedSaved/>}/>
+                <Route exact path={"/SpRequirementPostedHired"} element={<SpRequirementPostedHired/>}/>
+                <Route exact path={"/SpRequirementPostedContact"} element={<SpRequirementPostedContact/>}/>
+                <Route exact path={"/BpMainProfile"} element={<BpMainProfile/>}/>
+                <Route exact path={"/BpAllRequirement"} element={<BpAllRequirement/>}/>
+                <Route exact path={"/BpAllRequirementApplied"} element={<BpAllRequirementApplied/>}/>
+                <Route exact path={"/BpAllRequirementSaved"} element={<BpAllRequirementSaved/>}/>
+                <Route exact path={"/BpAllRequirementHired"} element={<BpAllRequirementHired/>}/>
+                <Route exact path={"/BpAllRequirementContracted"} element={<BpAllRequirementContracted/>}/>
+                <Route exact path={"/SpViewOfBP"} element={<SpViewOfBP/>}/>
+                <Route exact path={"/BpViewOfSp"} element={<BpViewOfSp/>}/>
+                <Route exact path={"/jobpost"} element={<PR/>}/>
             </Routes>
         </Router>
     </div>);

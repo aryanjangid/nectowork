@@ -58,6 +58,11 @@ function NavbarType1() {
                         Contact Us
                       </Link>
                     </li>
+                    <li className="nav-item ms-3">
+                      <Link className="nav-link" to={"/bptospprofile"}>
+                        BP Profile
+                      </Link>
+                    </li>
 
                     <li onClick={event => handleMoreClick(event)} className="nav-item ms-3 dropdown ">
                       <Link
