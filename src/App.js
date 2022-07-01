@@ -41,43 +41,43 @@ import SpForm90 from "./Component/Phase1/SpProfile/RightDiv/Forms/SpForm90";
 function App() {
     return (<div className="App">
         <Router>
-            <Navbar/>
+            <Navbar />
             <Routes>
-                <Route exact path={"/"} element={<HomePage/>}/>
-                <Route exact path={"/about"} element={<About/>}/>
-                <Route exact path={"/contact"} element={<Contact/>}/>
-                <Route exact path={"/faqs"} element={<FaQs/>}/>
-                <Route exact path={"/TermsAndCondition"} element={<TermsAndCondition/>}/>
-                <Route exact path={"/UserAggreement"} element={<UserAggreement/>}/>
-                <Route exact path={"/PrivacyPolicy"} element={<PrivacyPolicy/>}/>
-                <Route exact path={"/signin-signup"} element={<SignInSignUp/>}/>
-                <Route exact path={"/spprofile"} element={<SpProfile/>}/>
-                <Route exact path={"/bpprofile"} element={<BpProfile/>}/>
-                <Route exact path={"/spForm20"} element={<SpForm20/>}/>
-                <Route exact path={"/spForm40"} element={<SpForm40/>}/>
-                <Route exact path={"/spForm70"} element={<SpForm70/>}/>
-                <Route exact path={"/spForm90"} element={<SpForm90/>}/>
-                <Route exact path={"/forgot"} element={<ForgotPasswordPage/>}/>
+                <Route exact path={"/"} element={<HomePage />} />
+                <Route exact path={"/about"} element={<About />} />
+                <Route exact path={"/contact"} element={<Contact />} />
+                <Route exact path={"/faqs"} element={<FaQs />} />
+                <Route exact path={"/TermsAndCondition"} element={<TermsAndCondition />} />
+                <Route exact path={"/UserAggreement"} element={<UserAggreement />} />
+                <Route exact path={"/PrivacyPolicy"} element={<PrivacyPolicy />} />
+                <Route exact path={"/signin-signup"} element={<SignInSignUp />} />
+                <Route exact path={"/spprofile"} element={<SpProfile />} />
+                <Route exact path={"/bpprofile"} element={<BpProfile />} />
+                <Route exact path={"/spForm20"} element={<SpForm20 />} />
+                <Route exact path={"/spForm40"} element={<SpForm40 />} />
+                <Route exact path={"/spForm70"} element={<SpForm70 />} />
+                <Route exact path={"/spForm90"} element={<SpForm90 />} />
+                <Route exact path={"/forgot"} element={<ForgotPasswordPage />} />
                 {/* phase-2 */}
-                <Route exact path="/Sp" element={<Sp/>}/>
-                <Route exact path={"/SpProfileCompany"} element={<SpProfileCompany/>}/>
-                <Route exact path={"/SpProfileSolution"} element={<SpProfileSolution/>}/>
-                <Route exact path={"/SpProfileMyProfile"} element={<SpProfileMyProfile/>}/>
-                <Route exact path={"/SpRequirementPostedRequirement"} element={<SpRequirementPostedRequirement/>}/>
-                <Route exact path={"/SpRequirementPostedShortlisted"} element={<SpRequirementPostedShortlisted/>}/>
-                <Route exact path={"/SpRequirementPostedSaved"} element={<SpRequirementPostedSaved/>}/>
-                <Route exact path={"/SpRequirementPostedHired"} element={<SpRequirementPostedHired/>}/>
-                <Route exact path={"/SpRequirementPostedContact"} element={<SpRequirementPostedContact/>}/>
-                <Route exact path={"/BpMainProfile"} element={<BpMainProfile/>}/>
-                <Route exact path={"/BpAllRequirement"} element={<BpAllRequirement/>}/>
-                <Route exact path={"/BpAllRequirementApplied"} element={<BpAllRequirementApplied/>}/>
-                <Route exact path={"/BpAllRequirementSaved"} element={<BpAllRequirementSaved/>}/>
-                <Route exact path={"/BpAllRequirementHired"} element={<BpAllRequirementHired/>}/>
-                <Route exact path={"/BpAllRequirementContracted"} element={<BpAllRequirementContracted/>}/>
-                <Route exact path={"/SpViewOfBP"} element={<SpViewOfBP/>}/>
-                <Route exact path={"/BpViewOfSp"} element={<BpViewOfSp/>}/>
+                <Route exact path="/Sp" element={<Sp />} />
+                <Route exact path={"/SpProfileCompany"} element={<SpProfileCompany />} />
+                <Route exact path={"/SpProfileSolution"} element={<SpProfileSolution />} />
+                <Route exact path={"/SpProfileMyProfile"} element={<SpProfileMyProfile />} />
+                <Route exact path={"/SpRequirementPostedRequirement"} element={<SpRequirementPostedRequirement />} />
+                <Route exact path={"/SpRequirementPostedShortlisted"} element={<SpRequirementPostedShortlisted />} />
+                <Route exact path={"/SpRequirementPostedSaved"} element={<SpRequirementPostedSaved />} />
+                <Route exact path={"/SpRequirementPostedHired"} element={<SpRequirementPostedHired />} />
+                <Route exact path={"/SpRequirementPostedContact"} element={<SpRequirementPostedContact />} />
+                <Route exact path={"/BpMainProfile"} element={<BpMainProfile />} />
+                <Route exact path={"/BpAllRequirement"} element={<BpAllRequirement />} />
+                <Route exact path={"/BpAllRequirementApplied"} element={<BpAllRequirementApplied />} />
+                <Route exact path={"/BpAllRequirementSaved"} element={<BpAllRequirementSaved />} />
+                <Route exact path={"/BpAllRequirementHired"} element={<BpAllRequirementHired />} />
+                <Route exact path={"/BpAllRequirementContracted"} element={<BpAllRequirementContracted />} />
+                <Route exact path={"/SpViewOfBP"} element={<SpViewOfBP />} />
+                <Route exact path={"/BpViewOfSp"} element={<BpViewOfSp />} />
 
-                <Route exact path={"/jobpost"} element={<PR/>}/>
+                <Route exact path={"/jobpost"} element={<PR />} />
             </Routes>
         </Router>
     </div>);

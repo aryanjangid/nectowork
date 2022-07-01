@@ -30,6 +30,9 @@ function BpForm({ onSignUpClose }) {
   const handleConfirm_Password = (event) => {
     setValues({ ...values, Confirm_Password: event.target.value });
   };
+  const handleOrganization_Name = (e) => {
+    setValues({ ...values, Organization_Name: e.target.value })
+  }
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (
@@ -81,7 +84,7 @@ function BpForm({ onSignUpClose }) {
     <Fragment>
       <form method="post" className="bp-signup-form">
         <label htmlFor="First_Name" className="bp-signup-label">
-          <p className="p-signup-first-name">First Name*</p>
+          <p className="p-signup-first-name">Name<span style={{ color: 'red' }}>*</span></p>
           <input
             type="text"
             className="input-signup-first-name"
@@ -91,7 +94,7 @@ function BpForm({ onSignUpClose }) {
             required={true}
           />
         </label>
-        <label htmlFor="Last_Name" className="bp-signup-label">
+        {/* <label htmlFor="Last_Name" className="bp-signup-label">
           <p className="p-signup-last-name">Last Name*</p>
           <input
             type="text"
@@ -101,9 +104,9 @@ function BpForm({ onSignUpClose }) {
             onChange={handleLast_Name}
             required={true}
           />
-        </label>
+        </label> */}
         <label htmlFor="Buisness_Email_ID" className="bp-signup-label">
-          <p className="p-signup-email-id">Email ID*</p>
+          <p className="p-signup-email-id">Email ID<span style={{ color: 'red' }}>*</span></p>
           <input
             type="email"
             name="Buisness_Email_ID"
@@ -114,7 +117,7 @@ function BpForm({ onSignUpClose }) {
           />
         </label>
         <label htmlFor="Phone_Number" className="bp-signup-label">
-          <p className="p-signup-phone-number">Phone Number*</p>
+          <p className="p-signup-phone-number">Phone Number<span style={{ color: 'red' }}>*</span></p>
           <input
             type="number"
             className="input-signup-phone-number"
@@ -126,8 +129,19 @@ function BpForm({ onSignUpClose }) {
             minLength={"10"}
           />
         </label>
+        <label htmlFor="Organization_Name" className="bp-signup-label">
+          <p className="p-signup-phone-number">Organization Name<span style={{ color: 'red' }}>*</span></p>
+          <input
+            type="text"
+            className="input-signup-phone-number"
+            name="Organization_Name"
+            value={values.Organization_Name}
+            onChange={handleOrganization_Name}
+            required={true}
+          />
+        </label>
         <label htmlFor="Password" className="bp-signup-label">
-          <p className="p-signup-password">Password*</p>
+          <p className="p-signup-password">Password<span style={{ color: 'red' }}>*</span></p>
           <input
             type="password"
             className="input-signup-password"
@@ -138,7 +152,7 @@ function BpForm({ onSignUpClose }) {
           />
         </label>
         <label htmlFor="Confirm_Password" className="bp-signup-label">
-          <p className="p-signup-confirm-password">Confirm Password*</p>
+          <p className="p-signup-confirm-password">Confirm Password<span style={{ color: 'red' }}>*</span></p>
           <input
             type="password"
             className="input-signup-confirm-password"
