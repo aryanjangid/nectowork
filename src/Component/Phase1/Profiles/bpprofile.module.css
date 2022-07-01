@@ -1,0 +1,127 @@
+.profileOuterDiv{
+    margin-bottom: 80px;
+}
+.bannerdiv{
+    background-size: cover; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bannerimg{
+    height: 250px;
+    width: 90%;
+    object-fit: fill;
+}
+.detaildiv{
+    padding: 0 10rem;
+    display: flex;
+}
+.leftdiv{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    margin:30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top:-7rem;
+    width: 350px;
+    height: fit-content;
+    padding-bottom: 20px;
+    /* position: sticky; */
+}
+.leftdiv h1{
+    font-size: 2rem;
+    margin-top: 20px;
+}
+.leftdiv p{
+
+}
+.leftdiv h4{
+    font-size: 1.2rem;
+}
+.leftdiv h3{
+    font-size:1.2rem;
+    margin-top: 20px;
+}
+.leftdiv h2{
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+.leftdiv h5{
+    margin-top: 5px;
+    font-size: 1rem;
+    color: var(--grey-text);
+    padding: 0 10px;
+}
+.leftdiv img{
+    width: 350px;
+    height: 350px;
+}
+
+.rightdiv{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+
+}
+.rightdiv1, .rightdiv2 , .rightdiv3{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    margin-top: 40px;
+    width: 100%;
+    margin-left: 3rem;
+    padding: 20px 40px;
+}
+.rightdiv1{
+    display: flex;
+}
+.rightdiv1 h1{
+    font-size: 1.2rem;
+    text-align: left;
+    font-weight:600 ;
+}
+.div1details{
+    margin-left: 20px;
+}
+.div1details h1{
+    font-weight: 200;
+}
+.rightdiv2 h1{
+    font-size: 1.5rem;
+    text-align: left;
+}
+.messagebuttondiv{
+    text-align: left;
+    margin-top: 1.5rem;
+}
+.messagebuttondiv button{
+    margin-right: 20px;
+    padding: 0.4rem 1rem;
+    border-radius: 10px;
+    background-color: var(--blue-text);
+    color: var(--white-text);
+    border: 0;
+}
+.rightdiv3 h1{
+    font-size: 1.7rem;
+    text-align: left;
+}
+.qualificationdiv{
+    display: flex;
+    text-align: left;
+    margin-top: 40px;
+}
+.qualificationdiv img{
+    margin-right: 15px;
+    width: 15px;
+}
+
+.qualificationdetails h4{
+    font-size: 1.4rem;
+}
+.qualificationdetails h5{
+    font-size: 1rem;
+}

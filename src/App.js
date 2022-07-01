@@ -37,7 +37,7 @@ import SpForm20 from "./Component/Phase1/SpProfile/RightDiv/Forms/SpForm20";
 import SpForm40 from "./Component/Phase1/SpProfile/RightDiv/Forms/SpForm40";
 import SpForm70 from "./Component/Phase1/SpProfile/RightDiv/Forms/SpForm70";
 import SpForm90 from "./Component/Phase1/SpProfile/RightDiv/Forms/SpForm90";
-
+import Bpprofile from "./Component/Phase1/Profiles/BPprofile"
 function App() {
     return (<div className="App">
         <Router>
@@ -59,6 +59,7 @@ function App() {
                 <Route exact path={"/spForm90"} element={<SpForm90/>}/>
                 <Route exact path={"/forgot"} element={<ForgotPasswordPage/>}/>
                 {/* phase-2 */}
+                <Route exact path="/bptospprofile" element={<Bpprofile/>}/>
                 <Route exact path="/Sp" element={<Sp/>}/>
                 <Route exact path={"/SpProfileCompany"} element={<SpProfileCompany/>}/>
                 <Route exact path={"/SpProfileSolution"} element={<SpProfileSolution/>}/>
@@ -76,7 +77,6 @@ function App() {
                 <Route exact path={"/BpAllRequirementContracted"} element={<BpAllRequirementContracted/>}/>
                 <Route exact path={"/SpViewOfBP"} element={<SpViewOfBP/>}/>
                 <Route exact path={"/BpViewOfSp"} element={<BpViewOfSp/>}/>
-
                 <Route exact path={"/jobpost"} element={<PR/>}/>
             </Routes>
         </Router>
